@@ -1,17 +1,17 @@
 node {  
-    stage('Build') { 
+    stage('Builds') { 
         echo " I am in build stage" 
     }
-    stage('Test') { 
+    stage('Tests') { 
         echo " I am in test stage"
     }
-    stage('Deploy') { 
+    stage('Deploys') { 
         echo " I am in deploy stage" 
     }
-    stage('Archive') { 
+    stage('Archives') { 
         echo " I am in archive stage" 
     }
-    stage('Clean up') { 
+    stage('Clean ups') { 
         echo " I am in clean up stage" 
     }
 }
