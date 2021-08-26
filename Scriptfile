@@ -11,5 +11,7 @@ node {
     stage('Archive') { 
         echo " I am in Archive stage " 
     }
-    
+    stage('Clean Up') { 
+        echo " I am in clean stage " 
+    }
 }
