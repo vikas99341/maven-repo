@@ -1,6 +1,6 @@
 node {  
     stage('Builds') { 
-        echo " I am in build stage " 
+        echo " I am in build stages " 
     }
     stage('Tests') { 
         echo " I am in test stage " 
